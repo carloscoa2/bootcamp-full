@@ -64,7 +64,7 @@ const numFull = document.querySelector('#numFull');
 function handleEvents() {
   setValues();
 
-  numRange.addEventListener('change', setValues);
+  numRange.addEventListener('input', setValues);
 }
 
 // Seta os valores dos outros inputs

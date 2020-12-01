@@ -1,0 +1,30 @@
+#searchBtn {
+  margin-left: 5px;
+}
+
+#results {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#userResults,
+#calcResults {
+  border: 1px solid black;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.userItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 7px;
+}
