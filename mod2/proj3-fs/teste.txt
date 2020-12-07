@@ -1,0 +1,2 @@
+bla bla bla
+Teste append file
