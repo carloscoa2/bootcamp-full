@@ -32,3 +32,16 @@
 2020-12-17T18:33:16.423Z [my-bank-api] error: PATCH /accounts - ID, Name e Balance são obrigatórios
 2020-12-17T18:33:44.981Z [my-bank-api] info: API started!
 2020-12-17T18:33:47.248Z [my-bank-api] info: PATCH /accounts/updateBalance - {"id":2,"balance":55044444}
+2020-12-17T18:47:35.624Z [my-bank-api] info: API started!
+2020-12-17T18:47:37.579Z [my-bank-api] info: GET /accounts
+2020-12-17T18:47:42.076Z [my-bank-api] info: GET /accounts
+2020-12-17T18:48:58.982Z [my-bank-api] info: API started!
+2020-12-17T18:53:12.068Z [my-bank-api] info: GET /accounts
+2020-12-17T18:53:16.406Z [my-bank-api] info: GET /accounts
+2020-12-17T18:55:29.664Z [my-bank-api] info: API started!
+2020-12-17T18:55:33.839Z [my-bank-api] info: GET /accounts
+2020-12-17T18:56:28.974Z [my-bank-api] info: API started!
+2020-12-17T18:57:05.970Z [my-bank-api] info: API started!
+2020-12-17T18:57:10.075Z [my-bank-api] info: GET /accounts
+2020-12-17T18:57:43.499Z [my-bank-api] info: GET /accounts/:id
+2020-12-17T18:57:52.460Z [my-bank-api] info: GET /accounts

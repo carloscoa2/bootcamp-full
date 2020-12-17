@@ -1,5 +1,6 @@
 import express from 'express';
 import winston from 'winston';
+// import cors from 'cors';
 import accountsRouter from './routes/accounts.js';
 import { promises as fs } from 'fs';
 
@@ -30,9 +31,10 @@ global.logger = winston.createLogger({
 
 const app = express();
 app.use(express.json());
-
+// liberação global do cors
+// app.use(cors());
+app.use(express.static('public'));
 app.use('/accounts', accountsRouter);
-
 app.listen(3000, async () => {
   try {
     await readFile(global.filename);
