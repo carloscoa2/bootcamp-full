@@ -1,0 +1,34 @@
+2020-12-17T18:14:15.157Z [my-bank-api] info: API started!
+2020-12-17T18:14:21.349Z [my-bank-api] info: GET /accounts
+2020-12-17T18:14:29.879Z [my-bank-api] info: POST /accounts - {"id":2,"name":"oliveira2","balance":5002}
+2020-12-17T18:18:29.044Z [my-bank-api] info: API started!
+2020-12-17T18:19:03.657Z [my-bank-api] info: API started!
+2020-12-17T18:19:25.260Z [my-bank-api] info: API started!
+2020-12-17T18:19:45.480Z [my-bank-api] error: POST /accounts - Name e Balance são obrigatórios
+2020-12-17T18:20:59.605Z [my-bank-api] info: API started!
+2020-12-17T18:21:05.659Z [my-bank-api] error: POST /accounts - Name e Balance são obrigatórios
+2020-12-17T18:21:30.046Z [my-bank-api] error: POST /accounts - Name e Balance são obrigatórios
+2020-12-17T18:21:34.668Z [my-bank-api] info: POST /accounts - {"id":3,"name":"teste","balance":0}
+2020-12-17T18:22:48.209Z [my-bank-api] info: API started!
+2020-12-17T18:23:00.898Z [my-bank-api] info: API started!
+2020-12-17T18:23:26.802Z [my-bank-api] info: POST /accounts - {"id":4,"name":"teste2","balance":0}
+2020-12-17T18:25:10.654Z [my-bank-api] info: API started!
+2020-12-17T18:25:18.849Z [my-bank-api] info: API started!
+2020-12-17T18:25:20.504Z [my-bank-api] info: API started!
+2020-12-17T18:25:39.274Z [my-bank-api] error: PUT /accounts - Registro não encontrado.
+2020-12-17T18:25:43.393Z [my-bank-api] info: API started!
+2020-12-17T18:26:33.961Z [my-bank-api] info: API started!
+2020-12-17T18:26:51.090Z [my-bank-api] error: PUT /accounts - Name e Balance são obrigatórios
+2020-12-17T18:27:27.621Z [my-bank-api] info: API started!
+2020-12-17T18:27:49.851Z [my-bank-api] info: GET /accounts
+2020-12-17T18:28:56.476Z [my-bank-api] info: PUT /accounts - {"id":2,"name":"oliveira22","balance":12,"another":"val"}
+2020-12-17T18:29:47.510Z [my-bank-api] info: API started!
+2020-12-17T18:29:49.852Z [my-bank-api] info: PUT /accounts - {"id":2,"name":"oliveira22","balance":12,"another":"val"}
+2020-12-17T18:30:05.286Z [my-bank-api] info: PUT /accounts - {"id":2,"name":"oliveira22","balance":122}
+2020-12-17T18:32:01.720Z [my-bank-api] info: API started!
+2020-12-17T18:32:30.052Z [my-bank-api] info: API started!
+2020-12-17T18:32:41.598Z [my-bank-api] info: API started!
+2020-12-17T18:32:54.427Z [my-bank-api] info: API started!
+2020-12-17T18:33:16.423Z [my-bank-api] error: PATCH /accounts - ID, Name e Balance são obrigatórios
+2020-12-17T18:33:44.981Z [my-bank-api] info: API started!
+2020-12-17T18:33:47.248Z [my-bank-api] info: PATCH /accounts/updateBalance - {"id":2,"balance":55044444}
