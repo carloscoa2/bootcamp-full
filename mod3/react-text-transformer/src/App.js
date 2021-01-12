@@ -74,6 +74,13 @@ export default function App() {
     return res;
   };
 
+  const textCopy = (inputId) => {
+    const text = document.getElementById(inputId);
+
+    text.select();
+    document.execCommand('copy');
+  };
+
   return (
     <div className="container">
       <div className="row">
@@ -90,13 +97,50 @@ export default function App() {
         <div className="col s12">
           <h5 style={styles.titulo}>Transformações</h5>
 
-          <Input label="Texto invertido" value={reverse(userInput)} />
-          <Input label="Texto numérico" value={toNumeric(userInput)} />
-          <Input label="CSV" value={toCSV(userInput)} />
-          <Input label="Slug" value={toSlug(userInput)} />
-          <Input label="Somente vogais" value={onlyVowels(userInput)} />
-          <Input label="Somente consoantes" value={onlyConsonants(userInput)} />
-          <Input label="Variável" value={toVariable(userInput)} />
+          <Input
+            inputId="texto_invertido"
+            label="Texto invertido"
+            value={reverse(userInput)}
+            copy={textCopy}
+          />
+          <Input
+            inputId="texto_numerico"
+            label="Texto numérico"
+            value={toNumeric(userInput)}
+            copy={textCopy}
+          />
+          {/* prettier-ignore */}
+          <Input
+            inputId="csv"
+            label="CSV"
+            value={toCSV(userInput)}
+            copy={textCopy}
+          />
+          {/* prettier-ignore */}
+          <Input
+            inputId="slug"
+            label="Slug"
+            value={toSlug(userInput)}
+            copy={textCopy}
+          />
+          <Input
+            inputId="somente_vogais"
+            label="Somente vogais"
+            value={onlyVowels(userInput)}
+            copy={textCopy}
+          />
+          <Input
+            inputId="somente_consoantes"
+            label="Somente consoantes"
+            value={onlyConsonants(userInput)}
+            copy={textCopy}
+          />
+          <Input
+            inputId="variavel"
+            label="Variável"
+            value={toVariable(userInput)}
+            copy={textCopy}
+          />
         </div>
       </div>
     </div>
